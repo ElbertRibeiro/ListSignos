@@ -7,7 +7,6 @@ import style from './style';
 
 export default function Signos() {
   return (
-    
     <View style={style.list}>
       <List signo="Aquário" dataInicio="21/01" dataFim="19/02" />
       <List signo="Peixes" dataInicio="20/02" dataFim="20/03" />
