@@ -21,7 +21,6 @@ export default function Signos() {
       <List signo="Escorpião" dataInicio="24/10" dataFim="22/11" />
       <List signo="Sagitário" dataInicio="23/11" dataFim="21/12" />
       <List signo="Capricórnio" dataInicio="22/12" dataFim="20/01" />
-    </View>
-    
+    </View>  
   );
 }
