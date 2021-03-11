@@ -9,7 +9,9 @@ export default function HomePage() {
   return (
     <View>
       <Titles />
-      <Signos />      
+      <ScrollView>
+        <Signos />  
+      </ScrollView>        
     </View>
   );
 }
