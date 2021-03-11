@@ -1,13 +1,12 @@
-import { StatusBar } from 'expo-status-bar';
 import React from 'react';
-import { View } from 'react-native';
+import { StatusBar } from 'expo-status-bar';
 import HomePage from './src/pages';
 
 export default function App() {
   return (
-    <View>
-      <StatusBar style="auto" />
-      <HomePage />
-    </View>
+    <>
+    <StatusBar style="auto" backgroundColor="green"/>
+    <HomePage />
+    </>
   );
 }
